@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Löwe Studio | Transformación Digital Premium</title>
+    <meta name="description" content="Estudio digital con más de 5 años de experiencia especializado en desarrollo web, estrategia digital y crecimiento en redes sociales.">
+    <meta name="keywords" content="desarrollo web, redes sociales, estrategia digital, diseño web, marketing digital">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/img/logo_sin_nombre.png">
+    
+    <!-- Fuentes -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- EmailJS -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Configuración -->
+    <script src="config.js" defer></script>
+</head>
+<body>
+    <!-- ===== NAVBAR ===== -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#home" class="logo">
+                <img src="assets/img/HERO.png" alt="Löwe Studio" class="logo-img">
+                <span class="logo-text">LÖWE <span class="logo-accent">STUDIO</span></span>
+            </a>
+            
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Inicio</a></li>
+                <li><a href="#about" class="nav-link">Quiénes Somos</a></li>
+                <li><a href="#services" class="nav-link">Servicios</a></li>
+                <li><a href="#projects" class="nav-link">Proyectos</a></li>
+                <li><a href="#social" class="nav-link">Impacto</a></li>
+                <li><a href="#contact" class="nav-link cta-nav">Contacto</a></li>
+            </ul>
+            
+            <button class="menu-toggle" aria-label="Menú móvil">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- ===== HERO SECTION ===== -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="particles-container" id="particles-js"></div>
+        </div>
+        
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="hero-line">IMPULSAMOS</span>
+                    <span class="hero-line highlight">EMPRESAS</span>
+                    <span class="hero-line">EN LO DIGITAL</span>
+                </h1>
+                
+                <p class="hero-subtitle">
+                    Desarrollo web profesional, estrategia digital y crecimiento en redes sociales 
+                    con más de <span class="highlight-text">5 años de experiencia</span>.
+                </p>
+                
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">
+                        <span>Transforma tu presencia digital</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="#projects" class="btn btn-secondary">
+                        Ver nuestros proyectos
+                    </a>
+                </div>
+                
+                <div class="hero-stats">
+                    <div class="stat">
+                        <h3>50+</h3>
+                        <p>Proyectos Entregados</p>
+                    </div>
+                    <div class="stat">
+                        <h3>5+</h3>
+                        <p>Años de Experiencia</p>
+                    </div>
+                    <div class="stat">
+                        <h3>100%</h3>
+                        <p>Clientes Satisfechos</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <p>Desplázate</p>
+        </div>
+    </section>
+
+    <!-- ===== ABOUT SECTION ===== -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">QUIÉNES <span class="highlight">SOMOS</span></h2>
+                <p class="section-subtitle">
+                    Löwe Studio es el estudio digital detrás del crecimiento de marcas 
+                    y emprendimientos de alto nivel. Somos Löwe SpA, con más de 5 años 
+                    transformando ideas en realidades digitales.
+                </p>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="image-frame">
+                        <img src="assets/img/HERO.png" alt="Equipo Löwe Studio">
+                    </div>
+                </div>
+                
+                <div class="about-info">
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-year">2019</div>
+                            <div class="timeline-content">
+                                <h4>Fundación</h4>
+                                <p>Nacimos como Löwe SpA, enfocados en desarrollo web empresarial.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="timeline-item">
+                            <div class="timeline-year">2021</div>
+                            <div class="timeline-content">
+                                <h4>Expansión</h4>
+                                <p>Crecimos hacia estrategias digitales integrales y redes sociales.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="timeline-item">
+                            <div class="timeline-year">2023</div>
+                            <div class="timeline-content">
+                                <h4>Consolidación</h4>
+                                <p>+50 proyectos entregados. Especialización en soluciones premium.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="about-values">
+                        <div class="value">
+                            <i class="fas fa-bullseye"></i>
+                            <h4>Estrategia</h4>
+                            <p>Planificación detallada para cada proyecto.</p>
+                        </div>
+                        <div class="value">
+                            <i class="fas fa-paint-brush"></i>
+                            <h4>Diseño</h4>
+                            <p>Interfaces elegantes y experiencias únicas.</p>
+                        </div>
+                        <div class="value">
+                            <i class="fas fa-chart-line"></i>
+                            <h4>Resultados</h4>
+                            <p>Métricas tangibles y crecimiento medible.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== SERVICES SECTION ===== -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">SERVICIOS <span class="highlight">DIGITALES</span></h2>
+                <p class="section-subtitle">
+                    Soluciones integrales para impulsar tu empresa en el mundo digital.
+                </p>
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Desarrollo Web Profesional</h3>
+                    <ul class="service-features">
+                        <li>Sitios corporativos premium</li>
+                        <li>E-commerce de alto rendimiento</li>
+                        <li>Aplicaciones web a medida</li>
+                        <li>Optimización y mantenimiento</li>
+                    </ul>
+                    <a href="#contact" class="service-link">Solicitar presupuesto →</a>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-chess-knight"></i>
+                    </div>
+                    <h3>Presencia Digital Estratégica</h3>
+                    <ul class="service-features">
+                        <li>Branding y identidad visual</li>
+                        <li>Estrategia de contenido</li>
+                        <li>SEO y posicionamiento</li>
+                        <li>Analytics y reportes</li>
+                    </ul>
+                    <a href="#contact" class="service-link">Planificar estrategia →</a>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <h3>Crecimiento en Redes Sociales</h3>
+                    <ul class="service-features">
+                        <li>Gestión completa de redes</li>
+                        <li>Campañas publicitarias</li>
+                        <li>Incremento de seguidores</li>
+                        <li>Análisis de engagement</li>
+                    </ul>
+                    <a href="#contact" class="service-link">Potenciar redes →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== PROJECTS SECTION ===== -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">PROYECTOS <span class="highlight">DESTACADOS</span></h2>
+                <p class="section-subtitle">
+                    Una muestra de nuestro trabajo y calidad premium.
+                </p>
+            </div>
+            
+            <div class="projects-filter">
+                <button class="filter-btn active" data-filter="all">Todos</button>
+                <button class="filter-btn" data-filter="web">Web</button>
+                <button class="filter-btn" data-filter="ecommerce">E-commerce</button>
+                <button class="filter-btn" data-filter="branding">Branding</button>
+                <button class="filter-btn" data-filter="social">Redes</button>
+            </div>
+            
+            <div class="projects-grid" id="projects-container">
+                <!-- Proyectos se cargan dinámicamente con JS -->
+            </div>
+            
+            <div class="projects-cta">
+                <p>¿Interesado en ver más? <a href="#contact">Contáctanos para ver demos completas</a></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== SOCIAL IMPACT SECTION ===== -->
+    <section id="social" class="social-impact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">IMPACTO EN <span class="highlight">REDES</span></h2>
+                <p class="section-subtitle">
+                    Resultados reales que generamos para nuestros clientes.
+                </p>
+            </div>
+            
+            <div class="impact-stats">
+                <div class="impact-stat">
+                    <div class="stat-number" data-count="200">0</div>
+                    <div class="stat-label">% Crecimiento en seguidores</div>
+                    <div class="stat-desc">Promedio en cuentas gestionadas</div>
+                </div>
+                
+                <div class="impact-stat">
+                    <div class="stat-number" data-count="99987">
+                        <span class="number">0</span><span class="plus">+</span>
+                        </div>
+                    <div class="stat-label">Views gestionados</div>
+                    <div class="stat-desc">Acumulado en todas las plataformas</div>
+                </div>
+                
+                <div class="impact-stat">
+                    <div class="stat-number" data-count="150">0</div>
+                    <div class="stat-label">Clientes satisfechos</div>
+                    <div class="stat-desc">Que confían en nuestra experiencia</div>
+                </div>
+                
+                <div class="impact-stat">
+                    <div class="stat-number" data-count="99">0</div>
+                    <div class="stat-label">% Tasa de retención</div>
+                    <div class="stat-desc">Clientes que continúan con nosotros</div>
+                </div>
+            </div>
+            
+            <div class="social-platforms">
+                <div class="platform">
+                    <i class="fab fa-instagram"></i>
+                    <h4>Instagram Growth</h4>
+                    <p>Estrategias para engagement real</p>
+                </div>
+                <div class="platform">
+                    <i class="fab fa-tiktok"></i>
+                    <h4>TikTok Strategy</h4>
+                    <p>Contenido viral y crecimiento rápido</p>
+                </div>
+                <div class="platform">
+                    <i class="fab fa-youtube"></i>
+                    <h4>YouTube Management</h4>
+                    <p>Aumento de suscriptores y views</p>
+                </div>
+                <div class="platform">
+                    <i class="fab fa-linkedin"></i>
+                    <h4>LinkedIn B2B</h4>
+                    <p>Posicionamiento empresarial</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CONTACT SECTION ===== -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">CONTACTO <span class="highlight">PROFESIONAL</span></h2>
+                <p class="section-subtitle">
+                    Hablemos sobre cómo podemos impulsar tu empresa.
+                </p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Información de Contacto</h3>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <a href="mailto:lowespa@gmail.com" id="contact-email">lowespa@gmail.com</a>
+                            <p>Respuesta en menos de 24 horas</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Horario de Atención</h4>
+                            <p>Lunes a Viernes: 9:00 - 18:00</p>
+                            <p>Sábados: 10:00 - 14:00</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Oficina Principal</h4>
+                            <p>Löwe SpA</p>
+                            <p>Tu dirección, Ciudad, País</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-social">
+                        <h4>Síguenos</h4>
+                        <div class="social-links">
+                            <a href="#" class="social-link instagram" data-social="instagram" target="_blank">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="#" class="social-link tiktok">
+                                <i class="fab fa-tiktok"></i>
+                            </a>
+                            <a href="#" class="social-link linkedin">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <a href="#" class="social-link youtube">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                            <a href="#" class="social-link twitter">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form-container">
+                    <form id="contact-form" class="contact-form">
+                        <div class="form-group">
+                            <label for="user_name">Nombre completo *</label>
+                            <input type="text" id="user_name" name="user_name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="user_email">Email *</label>
+                            <input type="email" id="user_email" name="user_email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="user_phone">Teléfono (opcional)</label>
+                            <input type="tel" id="user_phone" name="user_phone">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="service_type">Servicio de interés *</label>
+                            <select id="service_type" name="service_type" required>
+                                <option value="" disabled selected>Selecciona una opción</option>
+                                <option value="web">Desarrollo Web</option>
+                                <option value="estrategia">Estrategia Digital</option>
+                                <option value="redes">Redes Sociales</option>
+                                <option value="completo">Paquete Completo</option>
+                                <option value="otros">Otros</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Mensaje *</label>
+                            <textarea id="message" name="message" rows="5" placeholder="Cuéntanos sobre tu proyecto, objetivos y presupuesto aproximado..." required></textarea>
+                        </div>
+                        
+                        <div class="form-footer">
+                            <button type="submit" class="btn-submit" id="submit-btn">
+                                <span>Enviar mensaje</span>
+                                <i class="fas fa-paper-plane"></i>
+                            </button>
+                            <p class="form-notice">
+                                También puedes contactarnos directamente a 
+                                <a href="mailto:lowespa@gmail.com">lowespa@gmail.com</a>
+                            </p>
+                        </div>
+                    </form>
+                    
+                    <div id="form-message" class="form-message"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <img src="assets/img/LoweLogo1.png" alt="Löwe Studio">    <!-- ===== agregar trasnparencia al logo ===== --> 
+                        <span>LÖWE <span class="logo-accent">STUDIO</span></span>
+                    </div>
+                    <p class="footer-description">
+                        Estudio digital premium con más de 5 años de experiencia 
+                        impulsando empresas y emprendimientos en el mundo digital.
+                    </p>
+                </div>
+                
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Servicios</h4>
+                        <ul>
+                            <li><a href="#services">Desarrollo Web</a></li>
+                            <li><a href="#services">Estrategia Digital</a></li>
+                            <li><a href="#services">Redes Sociales</a></li>
+                            <li><a href="#services">Consultoría</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-column">
+                        <h4>Empresa</h4>
+                        <ul>
+                            <li><a href="#about">Quiénes Somos</a></li>
+                            <li><a href="#projects">Proyectos</a></li>
+                            <li><a href="#contact">Contacto</a></li>
+                            <li><a href="#" id="privacy-link">Privacidad</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p class="copyright">
+                    © 2026 <strong>Löwe SpA</strong> - Löwe Studio. Todos los derechos reservados.
+                </p>
+                <p class="legal">
+                    <a href="#">Términos y Condiciones</a> | 
+                    <a href="#">Política de Privacidad</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ===== FLOATING WIDGET ===== -->
+    <div class="floating-widget">
+        <button class="widget-toggle" aria-label="Abrir menú de contacto">
+            <i class="fas fa-comment-dots"></i>
+        </button>
+        
+        <div class="widget-menu">
+            <a href="#" class="widget-btn whatsapp" target="_blank" aria-label="Contactar por WhatsApp">
+                <i class="fab fa-whatsapp"></i>
+                <span>WhatsApp</span>
+            </a>
+            
+            <a href="mailto:lowespa@gmail.com" class="widget-btn email" aria-label="Enviar correo">
+                <i class="fas fa-envelope"></i>
+                <span>Email</span>
+            </a>
+            
+            <a href="#" class="widget-btn instagram" target="_blank" aria-label="Seguir en Instagram">
+                <i class="fab fa-instagram"></i>
+                <span>Instagram</span>
+            </a>
+            
+            <a href="#" class="widget-btn tiktok" target="_blank" aria-label="Seguir en TikTok">
+                <i class="fab fa-tiktok"></i>
+                <span>TikTok</span>
+            </a>
+            
+            <a href="#" class="widget-btn linkedin" target="_blank" aria-label="Seguir en LinkedIn">
+                <i class="fab fa-linkedin"></i>
+                <span>LinkedIn</span>
+            </a>
+        </div>
+    </div>
+
+    <!-- ===== SCRIPTS ===== -->
+    <script src="script.js"></script>
+    
+    <!-- Particles.js para el fondo del hero (opcional) -->
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+</body>
+</html>
